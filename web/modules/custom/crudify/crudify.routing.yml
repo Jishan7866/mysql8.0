@@ -1,0 +1,23 @@
+crudify.list:
+  path: '/custom-crud'
+  defaults:
+    _controller: '\Drupal\crudify\Controller\CustomCrudController::list'
+    _title: 'Custom CRUD'
+  requirements:
+    _permission: 'access content'
+
+crudify.add:
+  path: '/custom-crud/add'
+  defaults:
+    _form: '\Drupal\crudify\Form\CustomCrudForm'
+    _title: 'Add Custom Item'
+  requirements:
+    _permission: 'create custom items'
+
+crudify.edit:
+  path: '/custom-crud/edit/{id}'
+  defaults:
+    _form: '\Drupal\crudify\Form\CustomCrudForm'
+    _title: 'Edit Custom Item'
+  requirements:
+    _permission: 'edit custom items'

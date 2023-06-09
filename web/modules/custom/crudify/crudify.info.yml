@@ -1,0 +1,6 @@
+name: CRUD Operation
+description: Provides a custom module for CRUD operations.
+type: module
+core_version_requirement: ^9
+package: Custom
+version: 1.0
