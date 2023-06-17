@@ -5,7 +5,7 @@
 
 db:
     type: oracle-mysql:8.0
-    disk: 2048
+    disk: 3048
 
 cache:
     type: redis:6.0
